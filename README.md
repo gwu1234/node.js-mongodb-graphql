@@ -20,7 +20,7 @@ app.use('/graphql', graphqlHTTP({
 
 mongoose.connect(process.env.MONGO_URL)
 
-## MongoDB
+## .env
 
 define PORT and MONGO_URL  
 
